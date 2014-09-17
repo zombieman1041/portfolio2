@@ -1,0 +1,70 @@
+/*Introduction 1st page*/
+body{
+    background-image: url('file:///C:/Users/Student/Pictures/School/app%20academy/fantasy_post_apocalyptic_apocalyptic_1366x768_23832.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pic{
+	padding-right: 5px;
+}
+.content2 {
+   
+}
+.about-me{
+	text-align: center;
+}
+
+html, h1{
+	font-family: 'Shojumaru', cursive;
+	color: orange;
+
+}
+div{
+	
+	border-width: 5px;
+
+	padding: 30px;
+}
+.container {
+
+}
+.row {
+	padding-bottom: 40px;
+
+}
+body{
+
+}
+.list-group-item{
+	border: 0;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.title{
+	padding-top: 40px;
+	color: orange;
+
+}
+
+/*About me 2nd Page*/
+
+.place{
+	height: 400px; /*just to bring the text for about me over*/
+}
+.aboutme{
+	text-align: center;
+	color: white;
+	
+}
+.text{
+	font-family: 'Oswald', sans-serif;
+	color: orange;
+	font-size: 20px;
+}
+/*Projects page*/
+.text2{
+	font-family: 'Oswald', sans-serif;
+	color: orange;
+	font-size: 20px;
+	text-align: center;	
+}
