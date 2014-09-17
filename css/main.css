@@ -1,0 +1,122 @@
+.red{
+	border-color: red; 
+}
+
+.blue{
+	border-width 1px;
+	border-style: solid;
+	border-color: blue;
+}
+/* Setting things up */
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+#page {
+  padding: 1em;
+  background: #fafafa;
+}
+
+#content {
+  clear: both;
+  padding-top: 1em;
+}
+
+nav a {
+  color: #fff;
+}
+
+/* Important stuff */
+ul.menu {
+  padding: 0;
+  width: 100%;
+}
+ul.menu li {
+  list-style-type: none;
+  display: block;
+  float: left;
+  background: #777;
+  margin: 0;
+  padding: .5em 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Fixes Firefox bug */
+  box-sizing: border-box;
+  width: 20%;
+  text-align: center;
+}
+ul.menu li:hover {
+  background: #888;
+}
+
+a.open-panel, a.close-panel {
+  display: none;
+}
+
+@media only screen and (max-width: 55em) {
+  #content {
+    padding-top: 0;
+  }
+
+  /* Move nav off screen, setup transitions */
+  nav {
+    width: 70%;
+    position: absolute;
+    left: -70%;
+    top: 0;
+    height: 100%;
+    background: #777;
+  }
+
+  /* Display nav items vertically */
+  ul.menu {
+    border-top: 1px solid #888;
+  }
+  ul.menu li {
+    float: none;
+    width: 100%;
+    text-align: left;
+    padding: .5em 1em;
+    box-sizing: border-box;
+    border-bottom: 1px solid #888;
+  }
+
+  /* Reveal open/close buttons */
+  a.open-panel, a.close-panel {
+    display: inline;
+  }
+
+  .close-panel {
+    position: relative;
+    top: .5em;
+    left: 1em;
+  }
+
+  .openNav #page {
+    left: 0;
+    -webkit-transform: translate3d(70%, 0, 0);
+    -moz-transform: translate3d(70%, 0, 0);
+    -ms-transform: translate3d(70%, 0, 0);
+    -o-transform: translate3d(70%, 0, 0);
+    transform: translate3d(70%, 0, 0);
+    -webkit-transition: -webkit-transform 500ms ease;
+    -moz-transition: -moz-transform 500ms ease;
+    -o-transition: -o-transform 500ms ease;
+    transition: transform 500ms ease;
+  }
+
+  /* When the panel is closed, transition the page back to the left */
+  #page {
+    left: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: -webkit-transform 500ms ease;
+    -moz-transition: -moz-transform 500ms ease;
+    -o-transition: -o-transform 500ms ease;
+    transition: transform 500ms ease;
+  }
+}
