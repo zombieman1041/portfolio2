@@ -3,6 +3,7 @@ body{
     background-image: url('file:///C:/Users/Student/Pictures/School/app%20academy/fantasy_post_apocalyptic_apocalyptic_1366x768_23832.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 .pic{
 	padding-right: 5px;
@@ -26,7 +27,8 @@ div{
 	padding: 30px;
 }
 .container {
-
+	width:960px;
+	margin:0px auto;
 }
 .row {
 	padding-bottom: 40px;
@@ -67,4 +69,7 @@ body{
 	color: orange;
 	font-size: 20px;
 	text-align: center;	
+}
+@media screen and  (max-width: 959px){
+	body{background-color: lime}
 }
