@@ -72,7 +72,7 @@ body{
 }
 
 /*mediaqueries*/
-@media screen and  (max-width: 959px){
+@media screen and (max-width: 959px){
 	.container {
 	width:100%;
 	margin:0px auto;
@@ -88,17 +88,23 @@ body{
 	}
 }	
 
-@media screen and  (max-width: 640px){
+@media screen and (max-width: 640px){
 .col-xs-2{
 	width: 100%;
 }
 .col-xs-10{
 	width: 100%;
 	}
+img{
+	width: 100%;
 }
-@media screen and  (max-width: 320px){
+}
+@media screen and (max-width: 320px){
 .container{
 		width: 320px;
 	}
+img{
+	width: 100%;
+}
 }
 
