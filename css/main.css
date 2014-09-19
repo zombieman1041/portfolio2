@@ -63,6 +63,15 @@ body{
 	color: orange;
 	font-size: 20px;
 }
+.anime{
+	float: left;
+}
+.borderlands{
+	float: left;
+}
+.bass{
+	float: left;
+}
 /*Projects page*/
 .text2{
 	font-family: 'Oswald', sans-serif;
@@ -95,7 +104,13 @@ body{
 .col-xs-10{
 	width: 100%;
 	}
-img{
+.anime{
+	width: 100%;
+}
+.borderlands{
+	width: 100%;
+}
+.bass{
 	width: 100%;
 }
 }
@@ -103,7 +118,13 @@ img{
 .container{
 		width: 320px;
 	}
-img{
+.anime{
+	width: 100%;
+}
+.borderlands{
+	width: 100%;
+}
+.bass{
 	width: 100%;
 }
 }
