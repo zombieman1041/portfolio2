@@ -71,5 +71,32 @@ body{
 	text-align: center;	
 }
 @media screen and  (max-width: 959px){
-	body{background-color: lime}
+	.container {
+	width:100%;
+	margin:0px auto;
 }
+.col-xs-2{
+	width: 20%;
+}
+.col-xs-10{
+	width: 80%;
+	}
+	img{
+		width: 100%;
+	}
+}	
+
+@media screen and  (max-width: 640px){
+.col-xs-2{
+	width: 100%;
+}
+.col-xs-10{
+	width: 100%;
+	}
+}
+@media screen and  (max-width: 320px){
+.container{
+		width: 320px;
+	}
+}
+
