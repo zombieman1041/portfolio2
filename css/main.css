@@ -45,7 +45,7 @@ body{
 .title{
 	padding-top: 40px;
 	color: orange;
-
+	
 }
 .secret{
 	width: 10px;
@@ -79,7 +79,8 @@ body{
 	font-family: 'Oswald', sans-serif;
 	color: orange;
 	font-size: 20px;
-	text-align: center;	
+	text-align: center;
+	text-shadow: 0 0 0.2em #091209, 0 0 0.2em #091209}	
 }
 
 /*mediaqueries*/
