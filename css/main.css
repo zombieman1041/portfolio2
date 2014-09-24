@@ -118,20 +118,27 @@ body{
 }
 }
 @media screen and (max-width: 320px){
-.container{
+	.container{
+			width: 320px;
+		}
+	.anime{
+		width: 100%;
+	}
+	.borderlands{
+		width: 100%;
+	}
+	.bass{
+		width: 100%;
+	}
+	#carousel-example-generic{
 		width: 320px;
 	}
-.anime{
-	width: 100%;
-}
-.borderlands{
-	width: 100%;
-}
-.bass{
-	width: 100%;
-}
 }
 
 #carousel-example-generic{
 	width: 1000px;
+}
+.img{
+	width: 800px;
+	height: 500px;
 }
