@@ -116,28 +116,25 @@ body{
 .bass{
 	width: 100%;
 }
+.img{
+	width: 150px;
+	height: 150px;
+}
 }
 @media screen and (max-width: 320px){
 	.container{
 			width: 320px;
 		}
-	.anime{
-		width: 100%;
-	}
-	.borderlands{
-		width: 100%;
-	}
-	.bass{
-		width: 100%;
+	.img{
+		width: 100em;
+		height: 100em;
 	}
 	#carousel-example-generic{
-		width: 320px;
+	
 	}
 }
 
-#carousel-example-generic{
-	width: 1000px;
-}
+
 .img{
 	width: 800px;
 	height: 500px;
