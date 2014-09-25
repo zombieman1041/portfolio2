@@ -125,10 +125,11 @@ body{
 	.container{
 			width: 320px;
 		}
-	.img{
+	/*.img{
 		width: 100em;
 		height: 100em;
-	}
+	}*/
+	
 	#carousel-example-generic{
 	
 	}
