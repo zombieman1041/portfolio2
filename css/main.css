@@ -3,27 +3,19 @@ body{
     background-image: url('file:///C:/Users/Student/Pictures/School/app%20academy/fantasy_post_apocalyptic_apocalyptic_1366x768_23832.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 .pic{
 	padding-right: 5px;
 }
-.content2 {
-   
-}
 .about-me{
 	text-align: center;
 }
-
 html, h1{
 	font-family: 'Shojumaru', cursive;
 	color: orange;
-
 }
 div{
-	
 	border-width: 5px;
-
 	padding: 30px;
 }
 .container {
@@ -32,10 +24,6 @@ div{
 }
 .row {
 	padding-bottom: 40px;
-
-}
-body{
-
 }
 .list-group-item{
 	border: 0;
@@ -44,21 +32,18 @@ body{
 }
 .title{
 	padding-top: 40px;
-	color: orange;
-	
+	color: orange;	
 }
 .secret{
 	width: 10px;
 }
 /*About me 2nd Page*/
-
 .place{
 	height: 400px; /*just to bring the text for about me over*/
 }
 .aboutme{
 	text-align: center;
 	color: white;
-	
 }
 .text{
 	font-family: 'Oswald', sans-serif;
@@ -121,21 +106,35 @@ body{
 	height: 150px;
 }
 }
-@media screen and (max-width: 320px){
+@media (max-width: 320px){
 	.container{
 			width: 320px;
 		}
-	/*.img{
-		width: 100em;
-		height: 100em;
-	}*/
-	
-	#carousel-example-generic{
-	
-	}
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+ 		<!-- Indicators -->
+  		<ol class="carousel-indicators">
+    		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  		</ol>
+  		<div class="carousel-inner">
+    		<div class="item active">
+      			<span class="img">
+      				<img src="deadmansmall.jpg" alt="anime" class="img">
+      			</span>
+    			</div>
+    		<div class="item">
+      			<span class="img">
+      				<img src="borderlandssmall.jpg" alt="videogame" class="img">
+      			</span>
+    		</div>
+    		<div class="item">
+      			<span class="img">
+      				<img src="basssmall.jpg" alt="bass" class="img">
+      			</span>
+    		</div>
+  		</div>
 }
-
-
 .img{
 	width: 800px;
 	height: 500px;
